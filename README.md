@@ -1,9 +1,9 @@
-#  Projet 4 – Prédiction de Défaut de Paiement  
+# 📌 Projet 4 – Prédiction de Défaut de Paiement  
 ### Classification binaire déséquilibrée et massive
 
 ---
 
-##  Description du projet
+## 🔍 Description du projet
 
 Ce projet vise à prédire si un client va **faire défaut sur le paiement de sa carte de crédit**.  
 Le problème est formulé comme une **classification binaire fortement déséquilibrée**, où les clients défaillants sont minoritaires.
@@ -12,7 +12,7 @@ L’objectif est de fournir un **outil fiable et rapide d’aide à la décision
 
 ---
 
-##  Jeu de données
+## 📊 Jeu de données
 
 - Dataset : **UCI Credit Card Dataset**
 - Variable cible :
@@ -25,7 +25,7 @@ L’objectif est de fournir un **outil fiable et rapide d’aide à la décision
 
 ---
 
-##  Préparation des données & EDA
+## 🧹 Préparation des données & EDA
 
 - Chargement des données avec **Pandas**
 - Vérification de la qualité :
@@ -43,7 +43,7 @@ L’objectif est de fournir un **outil fiable et rapide d’aide à la décision
 
 ---
 
-##  Feature Engineering
+## 🛠 Feature Engineering
 
 Création de nouvelles variables afin d’améliorer la capacité prédictive des modèles :
 
@@ -64,7 +64,7 @@ Ces nouvelles features permettent une **meilleure séparation entre clients déf
 
 ---
 
-##  Modèles utilisés
+## 🤖 Modèles utilisés
 
 ### 1️⃣ Gradient Boosting Trees (GBDT)
 - **LightGBM**
@@ -83,7 +83,7 @@ Avantages :
 
 ---
 
-##  Stacking multi-niveaux
+## 🧠 Stacking multi-niveaux
 
 ### 🔹 Niveau 1
 - Entraînement de plusieurs modèles :
@@ -102,7 +102,7 @@ Avantages :
 
 ---
 
-##  Évaluation
+## 📈 Évaluation
 
 - Métriques utilisées :
   - ROC-AUC (principale)
@@ -114,7 +114,7 @@ Avantages :
 
 ---
 
-##  Conclusion
+## ✅ Conclusion
 
 Ce projet démontre l’efficacité d’une approche **hybride combinant Gradient Boosting Trees et Réseaux de Neurones**, renforcée par un **feature engineering avancé**.
 
@@ -122,7 +122,8 @@ Le modèle final fournit une **prédiction fiable du risque de défaut**, utile 
 
 ---
 
-##  Perspectives
+## 🚀 Perspectives
 
 - Ajustement du seuil de décision selon le coût métier
 - Utilisation de TabNet ou modèles deep learning plus avancés
+
